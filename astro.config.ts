@@ -27,7 +27,8 @@ export default defineConfig({
     syntaxHighlight: 'shiki',
   },
   integrations: [sitemap(), expressiveCode(), mdx(), react(), icon()],
-  site: 'https://www.paulvall.dev',
+  site: 'misquicita.github.io',
+  base: '/portafolio',,
   output: 'server',
   adapter: vercel(),
   image: {
